@@ -1,34 +1,17 @@
 #-------------------------------------------------------------------------------
-# Name:        Manav Rai
-# Branch:     Computer Science Engineering (Data Science)
-# Purpose:    Write a python program to find the greatest of three numbers
-#             entered by the user.
+# Name:    Manav Rai
+# Branch:  Computer Science Engineering (Data Science)
+# Purpose: Write a python program to add three numbers 25+’25’+25.0 and produce
+#          result 75 as string.
+# Question Number -: 4
 #
-# Question No. : 4
-#
-# Created:     11-12-2022
+# Created:     30-11-2022
 #-------------------------------------------------------------------------------
 
-#To find greatest of three numbers
+a = 25
+b = eval("25")
+c = int(25.0)
 
-#Try to use input to evaulate the greatest of the numbers
-try:
-    #Get input from user
-    a = eval(input("Enter number 1: "))
-    b = eval(input("Enter number 2: "))
-    c = eval(input("Enter number 3: "))
+sum = str(a+b+c)
 
-    #Compare inputs
-    if a > b and a > c:
-        print(a, "is the greatest")
-    if b > a and b > c:
-        print(b, "is the greatest")
-    if c > a and c > b:
-        print(c, "is the greatest")
-    print("Program exited with code 0.")
-
-
-#Throw exception if number is invalid
-except:
-    print ("Enter a valid number!")
-    print("Program exited with code 1.")
+print(sum)

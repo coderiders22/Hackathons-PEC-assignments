@@ -1,24 +1,26 @@
 #-------------------------------------------------------------------------------
-# Name:        Manav Rai
-# Branch:     Computer Science Engineering (Data Science)
-# Purpose:    Store your name, SID, department name and CGPA into different
-#             variables.With the help of String formatting print the following
-#             output:
-#              Hey, ABC Here!
-#              My SID is 2110XXXX
-#              I am from XYZ department and my CGPA is 9.9
+# Name:    Manav Rai
+# Branch:  Computer Science Engineering (Data Science)
+# Purpose: Write a Python programme to compute a person's income tax.
+#           Assume following tax laws:
+#           . All taxpayers are charged a flat tax rate of 20%
+#          . All taxpayers are allowed to $10,000 standard deduction
+#           . Gross income must be entered to the nearest penny.
+#           . Gross Income and the number of dependents must be asked from
+#             the user.
+#             .Hint:
+#            Taxable income = GrossIncome - Standard deduction -
+#            (Dependent deduction* No. of dependents)
+#            .Tax = Taxable Income * Tax Rate
 #
-# Question No. : 2
+# Question Number -: 2
 #
-# Created:     11-12-2022
+# Created:     30-11-2022
 #-------------------------------------------------------------------------------
 
-
-name = str("Manav Rai")
-sid = int("22106028")
-department_name = str("CSE DS")
-cgpa = float("10.0")
-
-print("Hey,", name, "here!")
-print("My SID is", sid)
-print("I am from",department_name, "department and my CGPA is", cgpa)
+x = float(input("Please enter your gross index"))
+y = float(input("Please enter your no. of dependents"))
+print("flat tax amount",x/5)
+print("standard deduction $10000")
+print("additional tax due to number of dependents",3000*y)
+print("Total taxable income",x-10000-(3000*y))
