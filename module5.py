@@ -1,20 +1,20 @@
 #-------------------------------------------------------------------------------
-# Name:    Manav Rai
-# Branch:  Computer Science Engineering (Data Science)
-# Purpose: Write a program that prints out the sine and cosine of the angles
-#           ranging from 0 to 345◦ in 15◦ increments. Each result should be
-#           rounded to 4 decimal places.
-# Question Number -: 5
+# Name:        Manav Rai
+# Branch:     Computer Science Engineering (Data Science)
+# Purpose:    Write a python program to check if the word “name” is present in
+#             the string entered by the user (Print : “Yes” or “No”).
 #
-# Created:     30-11-2022
+# Question No. : 5
+#
+# Created:     11-12-2022
 #-------------------------------------------------------------------------------
 
+input_string = input("Input a string:")
 
-#Find sine and cosine of angles in degrees.
+input_name = input("Enter a name:")
 
-import math
+if input_name in input_string:
+    print("Yes")
 
-for i in range(0, 345, 15):
-    sine = round(math.sin(math.radians(i)),4)
-    cosine = round(math.cos(math.radians(i)),4)
-    print(i, " --- ", sine, cosine)
+else:
+    print("No")
