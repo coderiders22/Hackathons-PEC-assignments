@@ -25,10 +25,9 @@ try:
         print(b, "is the greatest")
     if c > a and c > b:
         print(c, "is the greatest")
-    print("Program exited with code 0.")
+    print("yes.")
 
 
-#Throw exception if number is invalid
 except:
     print ("Enter a valid number!")
-    print("Program exited with code 1.")
+    print("no.")

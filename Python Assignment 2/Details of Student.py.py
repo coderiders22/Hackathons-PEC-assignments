@@ -14,10 +14,10 @@
 #-------------------------------------------------------------------------------
 
 
-name = str("Manav Rai")
-sid = int("22106028")
-department_name = str("CSE DS")
-cgpa = float("10.0")
+name = input("Enter your name")
+sid = input("Enter your SID")
+department_name = input("Enter your department name")
+cgpa = input("Enter your CGPA")
 
 print("Hey,", name, "here!")
 print("My SID is", sid)
