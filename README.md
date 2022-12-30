@@ -1,3 +1,3 @@
-# PEC-Python Project
+# PEC-Python and Java Project
 
-Punjab Engineering College python projects used to learn python.
+Punjab Engineering College python and Java projects 
