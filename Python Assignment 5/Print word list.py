@@ -1,7 +1,7 @@
 #-------------------------------------------------------------------------------
 # Name:        Manav Rai
 # Branch:     Computer Science Engineering (Data Science)
-# Purpose:     Write a program to count the number of occurrences of each word 
+# Purpose:     Write a program to count the number of occurrences of each word
 #              in the list(List entered by the user).
 # Question No. : 9
 # Created:     11-01-2023
