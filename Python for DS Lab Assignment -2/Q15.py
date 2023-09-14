@@ -8,5 +8,11 @@
 #
 #-------------------------------------------------------------------------------
 
-
-
+def series_sum():
+    n = int(input("Enter value of n:"))
+    sum = 0
+    for i in range(1,n+1):
+        for j in range(i):
+            sum += 2*(10**j)
+            print(sum)
+series_sum()
