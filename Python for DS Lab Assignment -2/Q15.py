@@ -5,7 +5,7 @@
 # Question:  Find the sum of the series 2 +22 + 222 + 2222 + .. n terms
 # Question no. : 15
 # Assignment:   2
-#
+# Created :   14-09-23
 #-------------------------------------------------------------------------------
 
 def series_sum():

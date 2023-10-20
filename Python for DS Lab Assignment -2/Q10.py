@@ -8,7 +8,7 @@
 #          Expected Outcome: ['My', 'name', 'is', 'Shelly']
 # Question no. : 10
 # Assignment:   2
-#
+# Created :   14-09-23
 #-------------------------------------------------------------------------------
 
 list1 = ["M", "na", "i", "She"]

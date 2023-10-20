@@ -7,7 +7,7 @@
 #           occurs in a string.
 # Question no. : 7
 # Assignment:   2
-#
+# Created :   14-09-23
 #-------------------------------------------------------------------------------
 
 def count_dogs():

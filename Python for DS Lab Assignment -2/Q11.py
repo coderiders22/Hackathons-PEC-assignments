@@ -8,7 +8,7 @@
 #            Expected Output: ['Hello Dear', 'Hello Sir','take Dear','take Sir']
 # Question no. : 11
 # Assignment:   2
-#
+# Created :   14-09-23
 #-------------------------------------------------------------------------------
 
 list1 = ["Hello ", "take "]
